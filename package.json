@@ -1,0 +1,30 @@
+{
+  "name": "susie-chat-example",
+  "version": "1.0.0",
+  "description": "An example of a simple chat app using Susie, hapi and React",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "webpack --progress --colors && node lib/index",
+    "start-dev": "webpack --progress --colors --watch & node lib/index"
+  },
+  "author": "Matt Harrison<hi@matt-harrison.com>",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "babel": "^6.3.26",
+    "babel-core": "^6.4.0",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "webpack": "^1.12.11",
+    "webpack-dev-server": "^1.14.1",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "axios": "^0.8.1"
+  },
+  "dependencies": {
+    "hapi": "^12.1.0",
+    "inert": "^3.2.0",
+    "joi": "^7.1.0",
+    "susie": "^2.0.0"
+  }
+}

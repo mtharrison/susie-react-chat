@@ -1,0 +1,105 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    color: #FFF7E8;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.conversation {
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.composer {
+    height: 60px;
+    display: flex;
+}
+
+.composer > div {
+    padding: 10px;
+}
+
+.username-input {
+    flex-grow: 1;
+}
+
+.username-input input {
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    line-height: 1em;
+    box-sizing: border-box;
+    border: 1px solid #260126;
+    font-size: 12px;
+    padding: 5px;
+    color: #260126;
+}
+
+.message-input {
+    flex-grow: 3;
+}
+
+.message-input input {
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    line-height: 1em;
+    box-sizing: border-box;
+    border: 1px solid #260126;
+    resize: none;
+    font-size: 12px;
+    padding: 8px;
+    color: #260126;
+}
+
+.send-button {
+    flex-grow: 1;
+}
+
+.send-button button {
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+    border: 1px solid #260126;
+    color: #FFFFFF;
+    background: #260126;
+    font-size: 18px;
+}
+
+.message {
+    display: flex;
+    color: #260126;
+    border-bottom: 1px solid #260126;
+    margin: 0 10px;
+}
+
+.message .timestamp {
+    width: 15%;
+}
+
+.message .username {
+    width: 10%;
+    font-weight: bold;
+}
+
+.message .message-content {
+    width: 75%;
+}
